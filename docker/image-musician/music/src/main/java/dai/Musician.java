@@ -66,7 +66,7 @@ public class Musician {
                 System.out.println(ex.getMessage());
             }
 
-            // Envoi toutes les secondes (comme demandé)
+            // Envoi toutes les secondes
             try {
                 // Pause d'une seconde
                 Thread.sleep(1000);

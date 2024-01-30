@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>dai</groupId>
-  <artifactId>Musician</artifactId>
+  <artifactId>Auditor</artifactId>
   <version>1.0</version>
 
   <properties>
@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>dai.Musician</mainClass>
+              <mainClass>dai.App</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -33,6 +33,7 @@
 
     </plugins>
   </build>
+
 
   <dependencies>
     <dependency>
@@ -47,4 +48,5 @@
       <version>2.9.1</version>
     </dependency>
   </dependencies>
+
 </project>

@@ -1,0 +1,7 @@
+FROM alpine:latest
+RUN apk add --no-cache openjdk21
+WORKDIR /app
+COPY ./music/target/Musician-1.0.jar /app/Musician-1.0.jar
+
+# Run the JAR file when the container launches
+ENTRYPOINT ["java", "-jar", "Musician-1.0.jar"]

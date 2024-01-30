@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>dai</groupId>
-  <artifactId>Auditor</artifactId>
+  <artifactId>Musician</artifactId>
   <version>1.0</version>
 
   <properties>
@@ -20,7 +20,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>dai.AuditorListen</mainClass>
+              <mainClass>dai.Musician</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -34,7 +34,6 @@
     </plugins>
   </build>
 
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -45,8 +44,7 @@
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
-      <version>2.9.1</version>
+      <version>2.10.1</version>
     </dependency>
   </dependencies>
-
 </project>
